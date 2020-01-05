@@ -14,14 +14,14 @@
    0 <= y <= 100/3 ==> range = 33
    0 <= z <= 100   ==> range = 100
 */
-
+module main
 
 fn main() {
 	mut x := 0
 	mut y := 0
 	mut z := 0
 	mut sum := 0
-	println('百錢買百雞問題')
+	println("百錢買百雞問題")
 	for x = 0; x <= 20; x++ {
 		for y = 0; y <= 33; y++ {
 			for z = 0; z <= 100; z++ {
